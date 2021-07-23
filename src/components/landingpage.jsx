@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import { Cell, Grid } from "react-mdl";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faCamera } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 class LandingPage extends Component {
   state = {};
@@ -14,18 +20,59 @@ class LandingPage extends Component {
               className="avatar-img"
             ></img>
             <div className="banner-text">
-              <h1>full stack web developer</h1>
+              <h1>Full Stack Web (GIS) Developer</h1>
 
               <hr />
-              <p>HTML/CSS | Bootstrap | JavaScript | React | Node | Express | MongoDB</p>
-
+              <p>
+                HTML/CSS | Bootstrap | JavaScript | React | Node | Express |
+                MongoDB
+              </p>
               <div className="social-links">
-
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                {/* linkedin */}
+                <a
+                  href="http://google.com"
+                  target="_blank"
+                  rel="nonopener noreferrer"
+                >
+                  <i aria-hidden="true">
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      size="6x"
+                      color="white"
+                    />
+                  </i>
                 </a>
-
+                {/* github */}
+                <a
+                  href="http://google.com"
+                  target="_blank"
+                  rel="nonopener noreferrer"
+                >
+                  <i aria-hidden="true">
+                    <FontAwesomeIcon
+                      icon={faGithubSquare}
+                      size="6x"
+                      color="white"
+                    />
+                  </i>
+                </a>
+                {/* e-mail */}
+                <a
+                  href="http://google.com"
+                  target="_blank"
+                  rel="nonopener noreferrer"
+                >
+                  <i aria-hidden="true">
+                    <FontAwesomeIcon
+                      icon={faEnvelope}
+                      size="6x"
+                      color="white"
+                    />
+                  </i>
+                </a>
               </div>
+
+              
             </div>
           </Cell>
         </Grid>
