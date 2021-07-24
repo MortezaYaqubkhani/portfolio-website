@@ -62,7 +62,6 @@
   margin: auto;
 }
 
-
 .banner-text p {
   color: white;
   font-size: 20px;
@@ -80,4 +79,8 @@
 .social-links i {
   padding: 8px;
   margin: auto;
+}
+
+.projects-grid {
+  display: flex;
 }
