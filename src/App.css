@@ -84,6 +84,7 @@
   display: flex;
 }
 
+/* Conatacts page CSS*/
 .contact-body {
   margin: auto;
   position: fixed;
@@ -116,4 +117,11 @@
   border-top: 5px dotted black;
   width: 50%;
   margin: auto;
+}
+
+/* Resume page CSS*/
+.resume-right-col {
+  background: #272217;
+  color: white;
+  padding: 2em;
 }
